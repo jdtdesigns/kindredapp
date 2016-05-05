@@ -158,13 +158,22 @@ nav {
 		padding-bottom: 2px;
 		text-align: center;
 	}
+	&__members {
+		// min-width: auto;
+		// max-width: 400px;
+	}
 	&__member {
 		margin-bottom: 15px;
 		background: rgba(0, 0, 0, .25);
 		padding: 16px 30px 15px;
 		border-radius: 3px;
+		white-space: nowrap;
+		min-width: 300px;
 		&.hide {
 			display: none;
+		}
+		&-name, &-time {
+			flex: 1;
 		}
 		&-name {
 			font-family: 'Lato', sans-serif;
@@ -181,7 +190,6 @@ nav {
 			font-family: 'Lato', sans-serif;
 			margin-left: 20px;
 			letter-spacing: .02em;
-			display: inline-block;
 			font-size: 1.2rem;
 		}
 	}
