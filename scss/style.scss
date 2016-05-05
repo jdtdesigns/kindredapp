@@ -132,9 +132,16 @@ nav {
 		padding: 5px 10px 8px;
 		outline: none;
 		cursor: pointer;
+		transition: background .3s;
+		border-radius: 5px;
+		border: 1px solid transparent;
+		&:hover {
+			// border: 1px solid $white;
+			background: $white;
+			color: $lightgrey;
+		}
 		&.active {
 			border: 1px solid $white;
-			border-radius: 5px;
 		}
 	}
 }
