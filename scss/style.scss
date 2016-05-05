@@ -65,6 +65,9 @@ img {
 	margin-left: auto;
 }
 
+.hide {
+	display: none;
+}
 .overlay {
 	position: fixed;
 	background: rgba(0, 0, 0, .25);
@@ -158,10 +161,6 @@ nav {
 		padding-bottom: 2px;
 		text-align: center;
 	}
-	&__members {
-		// min-width: auto;
-		// max-width: 400px;
-	}
 	&__headers > * {
 		&:first-child {
 			padding-left: 30px;
@@ -177,9 +176,6 @@ nav {
 		border-radius: 3px;
 		white-space: nowrap;
 		min-width: 300px;
-		&.hide {
-			display: none;
-		}
 		&-name, &-time {
 			flex: 1;
 		}
