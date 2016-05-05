@@ -11,6 +11,9 @@ var members = {
 	'Alain Mbuku': {
 		gmt: -7
 	},
+	'Rnwebdk': {
+		gmt: 2
+	},
 	'JD Tadlock': {
 		gmt: -4
 	}
