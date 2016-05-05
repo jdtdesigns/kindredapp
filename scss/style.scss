@@ -162,6 +162,14 @@ nav {
 		// min-width: auto;
 		// max-width: 400px;
 	}
+	&__headers > * {
+		&:first-child {
+			padding-left: 30px;
+		}
+		&:last-child {
+			padding-right: 38px;
+		}
+	}
 	&__member {
 		margin-bottom: 15px;
 		background: rgba(0, 0, 0, .25);
