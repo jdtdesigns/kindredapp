@@ -100,11 +100,12 @@ header {
 		position: relative;
 		input {
 			width: 300px;
-			padding: 5px 10px 5px 30px;
+			padding: 7px 10px 8px 30px;
 			font-size: 1.2rem;
 			outline: none;
-			border: 2px solid lighten($lightgrey, 23%);
 			color: lighten($lightgrey, 8%);
+			border-radius: 4px;
+			border: none;
 		}
 		.fa {
 			position: absolute;
