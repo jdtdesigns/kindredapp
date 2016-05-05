@@ -1,4 +1,7 @@
 var members = {
+	'Esterlin Accime': {
+		gmt: -4
+	},
 	'Boris Chantel': {
 		gmt: -4
 	},
