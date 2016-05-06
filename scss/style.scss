@@ -205,9 +205,15 @@ nav {
 	&__headers > * {
 		&:first-child {
 			padding-left: 30px;
+			@include small {
+				padding-left: 10px;
+			}
 		}
 		&:last-child {
 			padding-right: 38px;
+			@include small {
+				padding-right: 20px;
+			}
 		}
 	}
 	&__member {
