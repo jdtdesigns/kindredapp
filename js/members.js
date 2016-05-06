@@ -8,6 +8,9 @@ var members = {
 	'Joseph Davidson': {
 		gmt: -7
 	},
+	'Robert DeSautel': {
+		gmt: -4
+	},
 	'Ali Hamdon': {
 		gmt: 1
 	},
