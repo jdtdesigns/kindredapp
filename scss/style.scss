@@ -31,6 +31,7 @@ html, body {
 body {
 	overflow-x: hidden;
 	min-width: 315px;
+	background: $grey;
 }
 
 img {
@@ -86,7 +87,7 @@ img {
 	background-size: cover;
 	backface-visibility: hidden;
 	@include small {
-		background: $grey;
+		display: none;
 	}
 }
 
