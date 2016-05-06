@@ -23,8 +23,6 @@ html, body {
 
 body {
 	overflow-x: hidden;
-	background: url(../img/lake.jpg) no-repeat top center fixed;
-	background-size: cover;
 	min-width: 430px;
 }
 
@@ -68,6 +66,19 @@ img {
 .hide {
 	display: none;
 }
+
+// Page Styles
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: -2;
+	background: url(../img/lake.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
 .overlay {
 	position: fixed;
 	background: rgba(0, 0, 0, .25);
@@ -87,7 +98,6 @@ header {
 		color: $white;
 		font-size: 2.5em;
 		span {
-			// color: darken(#fff, 14%);
 			color: lighten($lightblue, 30%);
 		}
 	}
@@ -139,7 +149,6 @@ nav {
 		border-radius: 5px;
 		border: 1px solid transparent;
 		&:hover {
-			// border: 1px solid $white;
 			background: $white;
 			color: $lightgrey;
 		}
