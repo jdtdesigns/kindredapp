@@ -1,35 +1,35 @@
 var members = {
-	'Esterlin Accime': {
-		gmt: -4
-	},
-	'Boris Chantel': {
-		gmt: -4
-	},
-	'Joseph Davidson': {
+	'Alain Mbuku': {
 		gmt: -7
 	},
-	'Robert DeSautel': {
+	'Ali Hamdon': {
+		gmt: 1
+	},
+	'Boris Chantel': {
 		gmt: -4
 	},
 	'Dima': {
 		gmt: 3
 	},
-	'Ali Hamdon': {
-		gmt: 1
+	'Esterlin Accime': {
+		gmt: -4
+	},
+	'JD Tadlock': {
+		gmt: -4
+	},
+	'Joseph Davidson': {
+		gmt: -7
 	},
 	'Mart Lepanen': {
 		gmt: 3
 	},
-	'Alain Mbuku': {
-		gmt: -7
+	'Nick Sherbakov': {
+		gmt: 3
 	},
 	'Rnwebdk': {
 		gmt: 2
 	},
-	'Nick Sherbakov': {
-		gmt: 3
-	},
-	'JD Tadlock': {
+	'Robert DeSautel': {
 		gmt: -4
-	}
+	}	
 }
