@@ -76,12 +76,15 @@ img {
 }
 
 // Page Styles
-.bg {
+.bg, .overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.bg {
 	z-index: -2;
 	background: url(../img/lake.jpg) no-repeat top center;
 	background-size: cover;
@@ -92,14 +95,9 @@ img {
 }
 
 .overlay {
-	position: fixed;
 	background: rgba(0, 0, 0, .25);
-	top: 0;
-	left: 0;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
 	opacity: .8;
+	z-index: -1;
 	@include small {
 		display: none;
 	}
