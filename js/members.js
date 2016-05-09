@@ -2,7 +2,7 @@ var members = {
 	'Alain Mbuku': {
 		gmt: -7
 	},
-	'Ali Hamdon': {
+	'Ali Hamdan': {
 		gmt: 1
 	},
 	'Boris Chantel': {
