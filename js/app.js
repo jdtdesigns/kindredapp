@@ -9,7 +9,7 @@ var app = (function() {
 			offset 		= gmt.getTimezoneOffset() / 60,
 			userTime 	= '',
 			userHours	= '',
-			userMintues	= '',
+			userMinutes	= '',
 			page 		= document.getElementsByClassName('Times__members')[0],
 			html 		= '';
 			
